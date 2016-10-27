@@ -1,0 +1,16 @@
+<component name="libraryTable">
+  <library name="org.apache.camel:camel-core:2.18.0" type="repository">
+    <properties maven-id="org.apache.camel:camel-core:2.18.0" />
+    <CLASSES>
+      <root url="jar://$M2_REPO$/org/apache/camel/camel-core/2.18.0/camel-core-2.18.0.jar!/" />
+      <root url="jar://$M2_REPO$/org/slf4j/slf4j-api/1.7.21/slf4j-api-1.7.21.jar!/" />
+      <root url="jar://$M2_REPO$/org/apache/camel/apt/2.18.0/apt-2.18.0.jar!/" />
+      <root url="jar://$M2_REPO$/org/apache/camel/spi-annotations/2.18.0/spi-annotations-2.18.0.jar!/" />
+      <root url="jar://$M2_REPO$/com/sun/xml/bind/jaxb-core/2.2.11/jaxb-core-2.2.11.jar!/" />
+      <root url="jar://$M2_REPO$/com/sun/xml/bind/jaxb-impl/2.2.11/jaxb-impl-2.2.11.jar!/" />
+      <root url="jar://$M2_REPO$/org/springframework/boot/spring-boot-configuration-processor/1.4.1.RELEASE/spring-boot-configuration-processor-1.4.1.RELEASE.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
