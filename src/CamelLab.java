@@ -1,17 +1,20 @@
-import org.apache.camel.CamelContext;
 import org.apache.camel.builder.RouteBuilder;
-import org.apache.camel.main.Main;
+import org.apache.camel.impl.DefaultCamelContext;
 
 public class CamelLab {
     public static void main(String[] args) throws Exception {
-        Main main = new Main();
-        CamelContext ctx = main.getOrCreateCamelContext();
+        DefaultCamelContext ctx = new DefaultCamelContext();
         ctx.addRoutes(new RouteBuilder() {
             @Override
             public void configure() throws Exception {
                 from("file:work/inbox").to("file:work/outbox");
             }
         });
-        main.run();
+        ctx.start();
+
+        while (ctx.isStarted()) {
+            Thread.sleep(10);
+        }
+        System.out.println("Shutting down...");
     }
 }
