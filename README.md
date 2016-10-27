@@ -1,6 +1,14 @@
 # Apache Camel Laboration
 
 
+- All routes live in a Camel Context.
+ - There is a Camel Spring Context Listener that sets up a Camel Context
+ - You can also create one with "new DefaultCamelContext()"
+- Camel are Payload Agnostic, you do not have to transform your payload into some transfer format.
+- Almost everything is pluggable or configurable
+- 
+
+
 
 ## References
 
