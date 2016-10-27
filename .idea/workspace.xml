@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5889f62c-03ac-4836-a7e4-275f9cf5d267" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Simple_Logging_Facade_for_Java_1_7_21.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apache-camel-labs.iml" afterPath="$PROJECT_DIR$/apache-camel-labs.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/CamelLab.java" afterPath="$PROJECT_DIR$/src/CamelLab.java" />
     </list>
     <ignored path="apache-camel-labs.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -30,8 +27,8 @@
       <file leaf-file-name="CamelLab.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/CamelLab.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+            <state relative-caret-position="225">
+              <caret line="15" column="29" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -794,12 +791,20 @@
       <updated>1477556623930</updated>
       <workItem from="1477556625380" duration="170000" />
       <workItem from="1477556815428" duration="3479000" />
-      <workItem from="1477566527111" duration="1658000" />
+      <workItem from="1477566527111" duration="1755000" />
     </task>
+    <task id="LOCAL-00001" summary="No longer using apache.camel.Main...">
+      <created>1477568454774</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1477568454774</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5307000" />
+    <option name="totallyTimeSpent" value="5404000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1920" y="23" width="2560" height="1417" extended-state="6" />
@@ -871,6 +876,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="No longer using apache.camel.Main..." />
+    <option name="LAST_COMMIT_MESSAGE" value="No longer using apache.camel.Main..." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1681,8 +1690,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/CamelLab.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+        <state relative-caret-position="225">
+          <caret line="15" column="29" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
